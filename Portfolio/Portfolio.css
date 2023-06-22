@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Libre+Baskerville&family=Playfair+Display:ital,wght@1,500&family=Satisfy&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color:white;
+    text-shadow: red 1px 0 5px ;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100;
+    padding: 20px 10%;
+    background:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a{
+    display: inline-block;
+    font: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover{
+    color:rgb(17, 51, 218);
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background:url(pink.bg.png) no-repeat ; 
+    /*rgba(7, 51, 86, 0.945)*/
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+
+.home-content {
+    max-width:600px;
+}
+
+.home-content h3{
+    font-size: 32px;
+    font-weight: 600;
+    margin: 1px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+
+}
+
+.home-content p{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 35px 0;
+    letter-spacing: 2px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height:40px;
+    background: transparent;
+    border: 2px solid rgba(17, 51, 218, 0.43);
+    border-radius: 50%;
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+    margin:10px 15px 30px 0;
+}
+
+.home-sci a hover{
+    background: rgba(1, 5, 23, 0.995);
+    color:white;
+    box-shadow: 0 0 20px black;
+}
+
+.btn-box{
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: rgba(17, 51, 218, 0.43);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn-box:hover{
+    background-color: rgba(218, 19, 182, 0.458);
+}
+.profile-pic {
+    position: absolute;
+    top: 50%;
+    right: -20%;
+    transform: translate(0, -50%);
+    width:1000px;
+    height: 700px;
+    border-radius: 30%;
+    overflow: hidden;
+  }
+  
+  .profile-pic img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
